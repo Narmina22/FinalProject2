@@ -12,6 +12,7 @@ const App = () => {
 
   useEffect(() => {
     getRecipes()
+    setRecipes([])
   }, [query])
 
   const getRecipes = async () => {
