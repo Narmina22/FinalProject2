@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+body {
+  font-family: roboto;
+  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+}
 .App {
   min-height: 100vh;
-  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
 }
 .search-form {
   min-height: 10vh;
@@ -14,6 +19,7 @@
   padding: 10px;
   outline: none;
   border-radius: 10px 0 0 10px;
+  font-size: 20px;
 }
 .search-button {
   background: rgb(231, 203, 203);
@@ -22,6 +28,7 @@
   color: white;
   border-radius: 0 10px 10px 0;
   cursor: pointer;
+  font-size: 20px;
 }
 .recipes {
   display: flex;

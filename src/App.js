@@ -43,9 +43,9 @@ const App = () => {
         {recipes.map(recipe => (
           <Recipe 
           key={recipe.recipe.label}
-          title={recipe.recipe.label} 
-          calories={recipe.recipe.calories}
-          image={recipe.recipe.image} 
+          title={recipe.recipe.label}
+          calories={Math.round(recipe.recipe.calories) + " " + "cal"}
+          image={recipe.recipe.image}
           ingredients={recipe.recipe.ingredients}
           />
         ))}
